@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Basic HTML Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 40%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: left;
+    }
+    thead {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<table>
+  <thead>
+    <tr>
+      <th>Roll number</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>001</td>
+      <td>Ravi</td>
+    </tr>
+    <tr>
+      <td>002</td>
+      <td>Meena</td>
+    </tr>
+  </tbody>
+</table>
 
 </body>
-
 </html>
